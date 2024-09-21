@@ -4,18 +4,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="static/css/main.css"/>
+    <meta name="keywords" content="Blog, Belaz, Sirius">
     <title>MyBlog</title>
 </head>
 <body>
-<header class="black">
-    <a href="pages/contacts.html" class="black url" id="contacts">Contacts</a>
-    <a href="pages/favorites.html" class="black url" id="favor">Favorites</a>
-    <a href="pages/labus.html" class="black url" id="projects">Projects</a>
+<header>
+    <a href="pages/contacts.html" class="button" id="contacts">Contacts</a>
+    <a href="pages/favorites.html" class="button" id="favor">Favorites</a>
+    <a href="pages/labus.html" class="button" id="projects">Projects</a>
 </header>
-<main class="black">
+<main>
         <div class="profile-info">
             <div class="name">Danil Sirius</div>
             <div class="info">Hello! Im Danil. Im backend developer.</div>
+            <sub>Who <strong>works</strong> that <strong>works</strong></sub>
+        </div>
+        <div class="profile-info">
+            <p class="info">Skills</p>
+            <ul>
+                <li>Langs: Python, GO, C#</li>
+                <li>Frameworks: Flask, Django, Fastapi, etc</li>
+                <li>Other: Nginx, docker, swagger, rest</li>
+            </ul>
+            <p class="info">Code snippet</p>
+            <pre class="code-snippet">
+                if True is True:
+                    pass
+            </pre>
         </div>
 </main>
 <script rel="script" src="static/js/cards.js"></script>

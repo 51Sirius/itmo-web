@@ -2,12 +2,12 @@
     background: gray;
 }
 
-.first {
-    background: blue;
+.table-row:nth-child(2n) > .table-item{
+    background-color: red ;
 }
 
-.second {
-    background: red;
+.table-row:nth-child(2n + 1) > .table-item{
+    background-color: blue ;
 }
 
 
@@ -27,4 +27,8 @@
 
 .table-item {
     padding: 5px;
+}
+
+footer {
+    color: white;
 }
