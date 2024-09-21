@@ -1,0 +1,30 @@
+.table-title {
+    background: gray;
+}
+
+.first {
+    background: blue;
+}
+
+.second {
+    background: red;
+}
+
+
+#load {
+    text-align: center;
+    margin: 0;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.table-row {
+    display: contents;
+}
+
+.table-item {
+    padding: 5px;
+}
