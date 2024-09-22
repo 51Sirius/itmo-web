@@ -21,7 +21,7 @@ main, header {
     color: #FAFAFA;
 }
 
-.profile-info {
+.profile-info, .profile {
     display: flex;
     flex-direction: column;
     border: #FAFAFA 1px solid;
@@ -30,13 +30,13 @@ main, header {
     padding: 20px;
 }
 
-.name {
+.profile__name {
     line-height: normal;
     font-size: 6vw;
     font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
 }
 
-.info {
+.info, .title-info {
     font-size: xx-large;
     padding: 5px;
 }
