@@ -1,12 +1,12 @@
-.table-title {
+.table__title {
     background: gray;
 }
 
-.table-row:nth-child(2n) > .table-item{
+.table__row:nth-child(2n) > .table__item{
     background-color: red ;
 }
 
-.table-row:nth-child(2n + 1) > .table-item{
+.table__row:nth-child(2n + 1) > .table__item{
     background-color: blue ;
 }
 
@@ -21,11 +21,11 @@
     grid-template-columns: repeat(3, auto);
 }
 
-.table-row {
+.table__row {
     display: contents;
 }
 
-.table-item {
+.table__item {
     padding: 5px;
 }
 

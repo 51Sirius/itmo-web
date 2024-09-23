@@ -36,7 +36,7 @@ main, header {
     font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
 }
 
-.info, .title-info {
+.info, .profile-info__title {
     font-size: xx-large;
     padding: 5px;
 }
@@ -135,7 +135,7 @@ footer {
     color: #171717;
 }
 
-.code-snippet {
+.profile-info__code-snippet {
     border: #FAFAFA 1px solid;
     border-radius: 10px;
     padding: 5px;
