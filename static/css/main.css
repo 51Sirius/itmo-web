@@ -147,3 +147,9 @@ footer {
       flex-direction: column;
     }
   }
+
+.shedule {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

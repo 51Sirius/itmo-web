@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Blog, Belaz, Sirius">
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css"/>
+    <title>MyBlog</title>
+    <script defer src="../static/js/5lab.js"></script>
+</head>
+<body>
+    <header>
+        <a href="contacts.html" class="button" id="contacts">Contacts</a>
+        <a href="favorites.html" class="button" id="favor">Favorites</a>
+        <a href="labus5.html" class="button" id="projects">Projects</a>
+    </header>
+    <main class="shedule">
+    <h1>Генератор расписания</h1>
+    <div class="shedule">
+        <form id="schedule-form">
+            <label for="days">Дней в неделю:</label>
+            <select id="days" name="days">
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+    
+            <label for="lessons">Макс. количество занятий:</label>
+            <input type="number" id="lessons" name="lessons" min="1" max="10" value="5">
+    
+            <label for="language">Язык таблицы:</label>
+            <select id="language" name="language">
+                <option value="ru">Русский</option>
+                <option value="en">English</option>
+            </select>
+    
+            <button type="submit">Сгенерировать</button>
+        </form>
+    
+        <div id="result-container"></div>
+    </div>
+    </main>
+</body>
+</html>

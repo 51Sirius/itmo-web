@@ -32,3 +32,33 @@
 footer {
     color: white;
 }
+
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#resultContainer {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
