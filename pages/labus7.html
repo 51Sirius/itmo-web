@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBlog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .swiper {
+            width: 80%;
+            margin: auto;
+        }
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .swiper-button-next, .swiper-button-prev {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <h1>Галерея слайдер</h1>
+    <div id="preloader">
+        <img src="https://cdn.dribbble.com/users/160117/screenshots/3197970/main.gif" alt="Загрузка...">
+    </div>
+    <div id="error-message"></div>
+    <div id="data-container"></div>
+    <div class="swiper">
+        <div class="swiper-wrapper" id="swiper-wrapper">
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="../static/js/7lab.js"></script>
+</body>
+</html>

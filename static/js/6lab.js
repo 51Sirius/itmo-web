@@ -20,8 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function fetchComments() {
         try {
-            preloader.style.display = 'block';
-            errorMessage.textContent = '';
+            
             const randomFilter = Math.random() > 0.5 ? 'above' : 'below'
             const response = await fetch(API_URL);
             if (!response.ok) {
