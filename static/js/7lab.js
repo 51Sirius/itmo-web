@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', async () => {
-    const oject_ids = 'https://collectionapi.metmuseum.org/public/collection/v1/objects';
+    const oject_ids = 'https://collectionapi.metmuseum.org/public/collection/v1/objects?departmentIds=11';
     const swiperWrapper = document.getElementById('swiper-wrapper');
     const preloader = document.getElementById('preloader');
     const errorMessage = document.getElementById('error-message');
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const metmuseums_id = metmuseums.objectIDs
         console.log(metmuseums_id, count)
         for (let i = 0; i < count; i++) {
-            const response = await fetch(oject_ids+'/'+metmuseums_id[i]);
+            const response = await fetch("https://collectionapi.metmuseum.org/public/collection/v1/objects/"+metmuseums_id[i]);
             if (!response.ok) {
                 throw new Error('Ошибка загрузки данных.');
             }
