@@ -17,8 +17,8 @@ main {
 
 
 main, header {
-    background: #171717;
-    color: #FAFAFA;
+    background: #e7dfdd;
+    color: black;
 }
 
 .profile-info, .profile {
@@ -114,4 +114,21 @@ footer {
     border: #FAFAFA 1px solid;
     display: block;
     border-radius: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.swiper {
+    width: 80%;
+    margin: auto;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.swiper-button-next, .swiper-button-prev {
+    color: #007BFF;
 }
