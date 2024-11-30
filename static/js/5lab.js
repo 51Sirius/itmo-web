@@ -8,9 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('schedule-form').addEventListener('submit', function(event) {
         event.preventDefault();
 
-        const days = parseInt(document.getElementById('days').value, 10);
-        const lessons = parseInt(document.getElementById('lessons').value, 10);
-        const language = document.getElementById('language').value;
+        const formData = new FormData(event.target);
+        const days = parseInt(formData.get('days'), 10);
+        const lessons = parseInt(formData.get('lessons'), 10);
+        const language = formData.get('language');
 
         const scheduleData = { days, lessons, language };
         localStorage.setItem('scheduleData', JSON.stringify(scheduleData));
